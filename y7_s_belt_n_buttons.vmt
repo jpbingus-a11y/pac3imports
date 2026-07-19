@@ -1,0 +1,38 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/kapuyas/humans/yakuzasuits/main/m_belt_d"
+	"$bumpmap" "models/kapuyas/humans/yakuzasuits/main/m_belt_n"
+	"$PhongDisableHalfLambert" "1"
+	//"$blendTintByBaseAlpha"    "1"
+	//"$color2" "[ 0. 0. 0. ]"
+
+	"$additive" "0"
+	"$translucent" "0"
+	//"$alphatest" "1"
+	//"$alphatestreference" "0.4"
+
+	//"$ambientocclusion" "1"
+
+	//"$envmap" "models\cubemaps\cube_metal_grey"
+	//"$envmaptint" "[ 0.2 0.2 0.2 ]"
+	//"$envmapmask" "models/dmc5_yamato/yamato_blade_s"
+	"$normalmapalphaenvmapmask"  "1"
+	//"$envmapfresnel"    "1"	
+
+	//$lightwarptexture "models/kapuyas/humans/yakuzasuits/shared/lightwarp_soft"
+	$phongwarptexture "models/kapuyas/humans/yakuzasuits/shared/lightwarp_flesh"
+	$phongexponent "3"
+
+	"$rimlight" "1"
+	"$rimlightboost" "1"
+	"$rimmask" "1"
+
+	"$phong" "1"						
+	"$phongboost"	"0.10" 		
+	//"$phongexponenttexture" "models/kapuyas/humans/yakuzasuits/main/m_belt_s"  ///UV88, 0.8
+	"$phongfresnelranges"	"[0.10 0.332 2]"
+	"$PhongAlbedoTint"    "1"
+					
+
+}
+
